@@ -1,4 +1,4 @@
-# Marinara Receipe
+# Lasagna Receipe
 
 This is my family's secret Marinara receipe.
 
