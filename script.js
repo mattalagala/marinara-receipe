@@ -1,32 +1,36 @@
 // hi - I am a comment 
 
-var x = 4
+var x = 4;
+
+// Marinara Receipe Exercise
+var two = 2;
+var oneFourth = "1/4";
+
 // 2) Write out a function definition called marinaraSauce. Be sure to be mindful of your syntax!
 
-function marinaraSauce () {
+function marinaraSauce (cookName) {
 
-    console.log("Heat a medium-large saucepan over medium heat.")
-    console.log("Add 2 tspns of oil and 5 carlic cloves, cook until golden, about 2 minutes.")
-    console.log("Add 1/4 cup water, 2 cans of crushed tomates, and salt and season with black pepper to taste.")
-    console.log("Cover the pot, bring to a boil, reduce the heat to medium low, and simmer until the sauce is heated, about 10 minutes")
-    console.log("Stir in 1/4 cup roughly chopped fresh basil, salt and pepper as needed")
+    console.log ("Hey, " + cookName + "! This is my marinara sauce recipe!");
+    console.log("Heat a medium-large saucepan over medium heat.");
+    console.log("Add " + two + " tspns of oil and 5 carlic cloves, cook until golden, about " + two + " minutes.");
+    console.log("Add 1/4 cup water, " + two + " cans of crushed tomates, and salt and season with black pepper to taste.");
+    console.log("Cover the pot, bring to a boil, reduce the heat to medium low, and simmer until the sauce is heated, about 10 minutes");
+    console.log("Stir in " + oneFourth + " cup roughly chopped fresh basil, salt and pepper as needed");
 
 }
 
-marinaraSauce()
+marinaraSauce("Adam")
 
-//3) Inside this function, write a series of console.log(); statements that will print the following marinara sauce recipe:
+//1) In your function definition, change marinaraSauce to take one parameter called cookName
 
-//  - Heat a medium-large saucepan over medium heat.
+//2) Use cookName to print "Hey, cookName! This is my marinara sauce recipe!" before the recipe
 
-//    - Add 2 tspns of oil and 5 carlic cloves, cook until golden, about 2 minutes
+//3) Change your function invocation to take "Adam" as a cookName
 
-//    - Add 1/4 cup water, 2 cans of crushed tomates, and salt and season with black pepper to taste.
+//4) When you run your script, you should see  "Hey, Adam! This is my marinara sauce recipe!", followed by the recipe
 
-//    - Cover the pot, bring to a boil, reduce the heat to medium low, and simmer until the sauce is heated, about 10 minutes
+//1) A the very top of your function definition, define a variable called two, and set it equal to the number 2
 
-//    - Stir in 1/4 cup roughly chopped fresh basil, salt and pepper as needed.
+//2) Define another variable called "oneFourth", set it equal to the string "1/4"
 
-//4) After your function definition, write the line of code that will invoke your function
-
-//5) Run your script with node script.js. You should see your recipe printed to the screen!
+//3) Use string concatenation (i.e. the "+" sign) to replace any instance of 2 or 1/4 that occurs in the recipe.
